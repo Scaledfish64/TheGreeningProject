@@ -7,3 +7,34 @@
 /*Animations*/
 
 /*Misc*/
+body{margin:0;}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.nav-li {
+    float: left;
+    list-style-type: none;
+  }
+  
+.nav-li-a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: larger;
+  }
+  
+.nav-li-a:hover{
+    background-color: #111;
+}
