@@ -71,3 +71,9 @@ hover-underline {
   transform: scaleX(1);
   transform-origin: bottom;
 }
+
+.landing-header{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
