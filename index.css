@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
 
 /*Images*/
 
@@ -30,7 +31,7 @@ body{
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
 }
-
+  
 .nav{
   background-color: transparent;
   position: sticky;
@@ -108,7 +109,7 @@ hover-underline {
 
 .landing-info{
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   text-align: center;
   width: 30%;
   margin: auto;
