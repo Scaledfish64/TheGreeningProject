@@ -12,6 +12,7 @@
 /*Misc*/
 html{
   background-color: red;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -39,7 +40,7 @@ body{
 
 .nav-got-scrolled{
   background-color: black; 
-  border-bottom: 3px solid white;
+  border-bottom: 2px solid white;
   padding: 1%;
 }
 
@@ -118,7 +119,7 @@ button{
   font-family: 'Montserrat', sans-serif;  
 }
 
-.landing-button{
+.landing-button-link{
   border-radius: 10px;
   background-color: white;
   font-family: 'Montserrat', sans-serif;  
@@ -129,6 +130,10 @@ button{
   transition: 0.5s;
 }
 
-.landing-button:hover {
-  background-color: #c7c7c7;
+.landing-button-link:hover {
+  background-color: black;
+}
+
+.landing-button:hover{
+  color: white;
 }
