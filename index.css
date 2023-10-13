@@ -72,6 +72,12 @@ hover-underline {
   transform-origin: bottom;
 }
 
+.landing-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .landing-header{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -84,13 +90,12 @@ hover-underline {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   width: 40%;
-  margin: auto;
 }
 
 .landing-button{
   border-radius: 10px;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  margin: auto;
   border: none;
+  text-align: center;
 }
