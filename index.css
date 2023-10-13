@@ -23,13 +23,24 @@ body{
 #landing-page{
   height: 100vh;
   width: 100%;
-  background-image: url("images/mountain-lake-sunset-landscape-first-person-view-vector.jpg");
+  background-image: url("images/pexels-temo-berishvili-1574843.jpg");
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
 }
 
-nav{
+.nav{
   background-color: transparent;
   position: sticky;
+  top: 0;
+  transition: 0.5s;
+  padding: 2%;
+}
+
+.nav-got-scrolled{
+  background-color: black; 
+  border-bottom: 3px solid white;
+  padding: 1%;
 }
 
 .nav-list{
@@ -39,7 +50,7 @@ nav{
 .nav-item{
   display: inline-block;
   margin: none;
-  padding: 4% 2%;
+  padding: 0% 2%;
 }
 
 .nav-text{
@@ -80,6 +91,10 @@ hover-underline {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.landing-div{
+  margin: 10% auto;
 }
 
 .landing-header{
