@@ -110,20 +110,21 @@ hover-underline {
   padding: 2% 0%;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
+  max-height: 100vh;
 }
 
 .landing-header{
   color: white;
   font-family: 'Gabarito', sans-serif;
   text-align: center;
-  font-size: 5em;
+  font-size: 3em;
 }
 
 .landing-info{
   color: white;
   font-family: 'Nunito Sans', sans-serif;
   text-align: center;
-  width: 30%;
+  width: 50%;
   margin: auto;
 }
 
