@@ -25,10 +25,12 @@ body{
 
 p{
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1{
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #landing-page{
@@ -50,7 +52,7 @@ h1{
 
 .nav-got-scrolled{
   background-color: black; 
-  border-bottom: 2px solid #b8b8b8;
+  border-bottom: 2px solid white;
   padding: 1%;
 }
 
@@ -66,7 +68,7 @@ h1{
 
 .nav-text{
   color: white;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3em;
   padding: 8px;
   text-decoration: none;
@@ -153,12 +155,44 @@ button{
 #purpose-heading{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  margin: 3% auto;
-  font-size: 2.8em
+  margin: 10% auto;
+  font-size: 2.3em
 }
 
 .para{
   padding: 5%;
   margin: 0;
   padding-top: 0;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.flex-div-left{
+  width: 40%;
+  margin: 2%;
+}
+
+.flex-div-right{
+  width: 40%;
+  margin: 2%;
+}
+
+.flex-img{
+  width: 100%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.flex-img-bottom{
+  width: 80%;
+  float: right;
+  z-index: -1;
+  margin-top: -80%;
+  border-right: 2px solid white;
 }
