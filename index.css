@@ -187,12 +187,13 @@ button{
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   border-left: 2px solid white;
+  z-index: 1;
+  position: relative;
 }
 
 .flex-img-bottom{
   width: 80%;
   float: right;
-  z-index: -1;
   margin-top: -80%;
   border-right: 2px solid white;
 }
