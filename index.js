@@ -7,3 +7,20 @@ document.addEventListener('scroll', () => {
         header.classList.remove('nav-got-scrolled')
     }
 })
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+        else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const hiddenElementsLeft = document.querySelectorAll('.hidden');
+const hiddenElementsRight = document.querySelectorAll('.hidden-right');
+hiddenElementsLeft.forEach((el) => observer.observe(el));
+hiddenElementsRight.forEach((el) => observer.observe(el));
