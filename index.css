@@ -11,14 +11,22 @@
 
 /*Misc*/
 html{
-  background-color: red;
+  background-color: green;
   scroll-behavior: smooth;
 }
 
 body{
   margin:0;
   padding: 0;
-  background-color: white;
+  background-color: black;
+}
+
+p{
+  color: white;
+}
+
+h1{
+  color: white;
 }
 
 #landing-page{
@@ -95,9 +103,7 @@ hover-underline {
 }
 
 .landing-div{
-  margin: 10% auto;
-  background-color: rgba(0, 0, 0, 0.4);
-  background-blend-mode: multiply;
+  margin: 5% auto;
   width: 50%;
   padding: 2% 0%;
   border-top: 2px solid white;
@@ -108,7 +114,7 @@ hover-underline {
   color: white;
   font-family: 'Gabarito', sans-serif;
   text-align: center;
-  font-size: 3em;
+  font-size: 5em;
 }
 
 .landing-info{
@@ -139,4 +145,16 @@ button{
 
 .landing-button-link:hover {
   background-color: lightgreen;
+}
+
+#purpose-heading{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 3% auto;
+  font-size: 3em
+}
+
+.para{
+  padding: 5%;
+  margin: 0;
 }
