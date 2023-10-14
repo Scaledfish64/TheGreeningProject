@@ -154,10 +154,11 @@ button{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin: 3% auto;
-  font-size: 3em
+  font-size: 2.8em
 }
 
 .para{
   padding: 5%;
   margin: 0;
+  padding-top: 0;
 }
