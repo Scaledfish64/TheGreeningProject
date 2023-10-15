@@ -48,6 +48,7 @@ h1{
   top: 0;
   transition: 0.5s;
   padding: 2%;
+  z-index: 1000;
 }
 
 .nav-got-scrolled{
@@ -69,7 +70,7 @@ h1{
 .nav-text{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3em;
+  font-size: 1em;
   padding: 8px;
   text-decoration: none;
   position: relative;
@@ -107,7 +108,10 @@ hover-underline {
 }
 
 .landing-div{
-  margin: 5% auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
   width: 50%;
   padding: 2% 0%;
   border-top: 2px solid white;
@@ -128,34 +132,13 @@ hover-underline {
   text-align: center;
   width: 50%;
   margin: auto;
-}
-
-button{
-  border: none;
-  background: transparent;
-  font-family: 'Montserrat', sans-serif;  
-}
-
-.landing-button-link{
-  border-radius: 10px;
-  background-color: white;
-  font-family: 'Montserrat', sans-serif;  
-  font-weight: bold;
-  border: none;
-  text-align: center;
-  margin: 2%;
-  padding: 1% 2%;
-  transition: 0.5s;
-}
-
-.landing-button-link:hover {
-  background-color: lightgreen;
+  font-size: 0.8em;
 }
 
 #purpose-heading{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  margin: 10% auto;
+  padding: 5%;
   font-size: 2.3em
 }
 
