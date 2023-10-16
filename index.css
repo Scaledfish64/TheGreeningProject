@@ -243,8 +243,9 @@ hover-underline {
   display: grid;
   place-items: center;
   align-content: center;
-  min-height: 90vh;
-  background-image: url(images/pexels-joyston-judah-933054.jpg);
+  min-height: 100vh;
+  background-image: url("images/pexels-joyston-judah-933054.jpg");
+  background-size: cover;
 }
 
 #about-landing h1 {
