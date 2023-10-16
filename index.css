@@ -69,7 +69,7 @@ h1, h2, h3{
 
 .nav-text{
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.2em;
   padding: 8px;
   text-decoration: none;
@@ -244,7 +244,8 @@ hover-underline {
   place-items: center;
   align-content: center;
   min-height: 90vh;
-  background-image: url(images/pexels-joyston-judah-933054.jpg);
+  background-image: url("images/pexels-rifqi-ramadhan-884547.jpg");
+  background-size: cover;
 }
 
 #about-landing h1 {
@@ -257,11 +258,53 @@ hover-underline {
 
 .about-body {
   display: grid;
-  place-items: center;
-  align-content: center;
+  place-items: top;
   min-height: 100vh;
 }
+
 .contact{
   float: right;
   margin-right: 8%;
+}
+
+#about-sources h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+#source1 {
+  transition-delay: 200ms;
+}
+
+#source2 {
+ transition-delay: 300ms;
+}
+
+#source3 {
+  transition-delay: 400ms;
+}
+
+#source4 {
+  transition-delay: 500ms;
+}
+
+#source5 {
+  transition-delay: 600ms;
+}
+
+.about-body p {
+  text-align: center;
+}
+
+.source-image {
+  height: 50%;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  background-image: url("images/matthew-hernandez-Ms4D8OmrAMQ-unsplash.jpg");
+  background-size: cover;
+  border-radius: 30px;
+  transition-delay: 800ms;
 }
