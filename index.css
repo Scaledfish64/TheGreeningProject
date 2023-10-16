@@ -239,7 +239,18 @@ hover-underline {
   margin: 2%;
 }
 
-.contact{
-  float: right;
-  margin-right: 8%;
+#about-landing {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 90vh;
+  background-image: url(images/);
+}
+
+#about-landing h1 {
+  color: white;
+  font-family: 'Gabarito', sans-serif;
+  text-align: center;
+  font-size: 4em;
+  margin: 0;
 }
