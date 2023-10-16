@@ -270,6 +270,11 @@ hover-underline {
   margin-right: 8%;
 }
 
+#about-sources h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
 #source1 {
   transition-delay: 100ms;
 }
@@ -294,15 +299,11 @@ hover-underline {
   text-align: center;
 }
 
-.source-image {
-  height: 50%;
-  width: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  background-image: url("images/matthew-hernandez-Ms4D8OmrAMQ-unsplash.jpg");
-  background-size: cover;
-  border-radius: 30px;
-  transition-delay: 800ms;
+.source-image-div {
+  width: 100%;
+}
+
+.source-image{
+  width: 50%;
+  margin: 2% auto;
 }
