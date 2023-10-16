@@ -254,3 +254,8 @@ hover-underline {
   font-size: 4em;
   margin: 0;
 }
+
+.contact{
+  float: right;
+  margin-right: 8%;
+}
