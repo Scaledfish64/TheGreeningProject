@@ -243,13 +243,8 @@ hover-underline {
   display: grid;
   place-items: center;
   align-content: center;
-<<<<<<< HEAD
-  min-height: 100vh;
-  background-image: url("images/pexels-joyston-judah-933054.jpg");
-=======
   min-height: 90vh;
   background-image: url("images/pexels-rifqi-ramadhan-884547.jpg");
->>>>>>> ab0620e3fe7556d24096969e12aa214615908544
   background-size: cover;
 }
 
