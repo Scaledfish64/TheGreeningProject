@@ -238,3 +238,8 @@ hover-underline {
   display: block;
   margin: 2%;
 }
+
+.contact{
+  float: right;
+  margin-right: 8%;
+}
