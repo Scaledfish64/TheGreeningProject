@@ -220,6 +220,7 @@ hover-underline {
 }
 
 .footer-container{
+  border-top: 2px solid white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,23 +271,23 @@ hover-underline {
   text-align: center;
 }
 
-#source1 {
+.delay1 {
   transition-delay: 100ms;
 }
 
-#source2 {
+.delay2 {
  transition-delay: 150ms;
 }
 
-#source3 {
+.delay3 {
   transition-delay: 200ms;
 }
 
-#source4 {
+.delay4 {
   transition-delay: 250ms;
 }
 
-#source5 {
+.delay5 {
   transition-delay: 300ms;
 }
 
