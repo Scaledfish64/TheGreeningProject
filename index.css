@@ -308,4 +308,5 @@ hover-underline {
   margin: 2% auto;
   display: grid;
   align-items: center;
+  border-radius: 30px;
 }
