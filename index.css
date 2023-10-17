@@ -49,7 +49,7 @@ h1, h2, h3{
   transition: 0.5s;
   padding: 2%;
   width: 100%;
-  z-index: 1000;
+  z-index: 100000;
 }
 
 .nav-got-scrolled{
@@ -166,12 +166,7 @@ hover-underline {
   padding: 2%;
 }
 
-.flex-div-left{
-  width: 40%;
-  margin: 2%;
-}
-
-.flex-div-right{
+.flex-div{
   width: 40%;
   margin: 2%;
 }
@@ -309,4 +304,38 @@ hover-underline {
   display: grid;
   align-items: center;
   border-radius: 30px;
+}
+
+.square-img-div{
+  width: 100%;
+}
+
+.start-img{
+  z-index: 1000;
+  margin-top: 10%;
+}
+
+.top-img{
+  z-index: 1000;
+  margin-left: -5%;
+}
+
+.middle-img{
+  z-index: 100;
+  margin-top: 10%;
+  margin-left: -5%;
+}
+
+.bottom-img{
+  z-index: 1;
+  margin-top: 20%;
+  margin-left: -5%;
+}
+
+.tech-info{
+  padding-bottom: 0;
+}
+
+.tech-container{
+  margin-top: -10%;
 }
