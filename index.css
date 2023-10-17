@@ -306,4 +306,6 @@ hover-underline {
 .source-image{
   width: 50%;
   margin: 2% auto;
+  display: grid;
+  align-items: center;
 }
