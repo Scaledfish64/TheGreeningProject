@@ -313,22 +313,26 @@ hover-underline {
 
 .start-img{
   z-index: 1000;
+  width: 20%;
   margin-top: 10%;
 }
 
 .top-img{
   z-index: 1000;
+  width: 20%;
   margin-left: -5%;
 }
 
 .middle-img{
   z-index: 100;
+  width: 20%;
   margin-top: 10%;
   margin-left: -5%;
 }
 
 .bottom-img{
   z-index: 1;
+  width: 20%;
   margin-top: 20%;
   margin-left: -5%;
 }
