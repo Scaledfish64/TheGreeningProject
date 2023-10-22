@@ -23,7 +23,7 @@ body{
   background-color: black;
 }
 
-p, a{
+p, a, span{
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
@@ -362,26 +362,29 @@ hover-underline {
   margin: 0;
 }
 
-.tips-body {
-  min-height: 100vh;
+.impact-heading{
+  font-size: 2em;
 }
 
-.tips-body h2 {
-  text-align: center;
-  font-size: 3em;
+.impact-heading::after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 50px;
+  background-color: white;
+  margin-top: 7px;
 }
 
-.tips-img {
-  width: 30%;
-  float: right;
-  margin-top: 4.2%;
+.impact-li{
+  padding: 2%;
+}
+
+.impact-stat{
+  font-weight: bold;
+  font-size: 2em;
   margin-right: 5%;
-  border-radius: 10px;
 }
 
-.tips-para {
-  float: left;
-  width: 45%;
-  margin-top: 12%;
-  margin-left: 5%;
+.stat-info{
+  vertical-align: center;
 }
