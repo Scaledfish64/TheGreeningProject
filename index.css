@@ -21,6 +21,7 @@ body{
   margin:0;
   padding: 0;
   background-color: black;
+  overflow-x: hidden;
 }
 
 p, a, span{
@@ -31,6 +32,10 @@ p, a, span{
 h1, h2, h3{
   color: white;
   font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+  list-style: none;
 }
 
 #landing-page{
@@ -60,6 +65,7 @@ h1, h2, h3{
 
 .nav-list{
   margin: 0;
+  list-style: none;
 }
 
 .nav-item{
@@ -363,15 +369,15 @@ hover-underline {
 }
 
 .impact-heading{
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
-.impact-heading::after{
+.green-heading::before{
   content: "";
   display: block;
   height: 2px;
   width: 50px;
-  background-color: white;
+  background-color: #8191A6;
   margin-top: 7px;
 }
 
@@ -387,4 +393,29 @@ hover-underline {
 
 .stat-info{
   vertical-align: center;
+}
+
+.green-heading{
+  text-align: left;
+  font-size: 4em;
+}
+
+.green-flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.green-flex-div{
+  width: 40%;
+  margin-left: 20%;
+}
+
+.impact-flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background-color: #BF7B6B;
 }
