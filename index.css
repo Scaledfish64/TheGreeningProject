@@ -147,7 +147,13 @@ hover-underline {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 4%;
+  margin: 0;
   font-size: 2.5em
+}
+
+.purpose-heading{
+  padding: 5%;
+  font-size: 2em;
 }
 
 .half-para{
@@ -170,6 +176,10 @@ hover-underline {
   justify-content: center;
   align-items: center;
   padding: 2%;
+}
+
+.purpose-flex-container{
+  padding: 8% 5% 4% 5%;
 }
 
 .flex-div{
@@ -347,23 +357,6 @@ hover-underline {
 
 .tech-container{
   margin-top: -10%;
-}
-
-#tips-landing {
-  display: grid;
-  place-items: center;
-  align-content: center;
-  min-height: 100vh;
-  background-image: url("images/pexels-pixabay-532192.jpg");
-  background-size: cover;
-}
-
-#tips-landing h2 {
-  color: white;
-  font-family: 'Gabarito', sans-serif;
-  text-align: center;
-  font-size: 4em;
-  margin: 0;
 }
 
 .impact-heading{
