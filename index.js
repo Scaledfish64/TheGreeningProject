@@ -194,7 +194,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     function loadScore() {
         const totalScore = document.getElementById("score")
-        totalScore.textContent = `It would take ${Math.round((score/300)*10)/10} Earths if everyone lived like you!`
+        totalScore.textContent = `We would need ${Math.round((score/300)*10)/10} Earths if everyone lived like you!`
     }
      
      
