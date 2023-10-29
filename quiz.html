@@ -4,25 +4,40 @@
             <link href = "index.css" rel = "stylesheet" type = "text/css" />
             <link rel="icon" href="images/892917.png" />
             <title>The Greening Project</title>
+            <script defer src="index.js"></script>
         </head>
         <body>
             <section>
-                <nav class="nav">
-                  <ul class="nav-list">
-                    <li class="nav-item">
-                      <a class="nav-text hover-underline" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-text hover-underline" href="quiz.html">What Are My Effects?</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-text hover-underline" href="green.html">Going Green</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-text hover-underline" href="about.html">About/Copyright</a>
-                    </li>
-                  </ul>
-                </nav>
+              <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item">
+                    <a class="nav-text hover-underline" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-text hover-underline" href="quiz.html"
+                      >What Are My Effects?</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-text hover-underline" href="green.html"
+                      >Going Green</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-text hover-underline" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item contact">
+                    <a class="nav-text hover-underline" href="contact.html"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </nav>
               </section>
+              <div class="panel">
+                <div class="question" id="ques"></div>
+                <div class="options" id="opt"></div>
+                <button onclick="checkAns()" id="btn">SUBMIT</button>
+                <div id="score"></div>
         </body>
     </html>
