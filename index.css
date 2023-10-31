@@ -399,7 +399,7 @@ hover-underline {
 }
 
 .green-flex-div{
-  width: 40%;
+  width: 50%;
   margin-left: 20%;
 }
 
@@ -442,6 +442,25 @@ hover-underline {
 .solar-heading{
   text-align: center;
   font-size: 2.4em;
+}
+
+.geo-container{
+  margin: 0 auto;
+}
+
+.geo-img-div{
+  width: 40%;
+  margin: 2%;
+  display: inline-block;
+}
+
+.geo-div{
+  display: inline-block;
+  width: 40%;
+}
+
+.geo-img{
+  width: 100%;
 }
 
 /** this is for smaller laptops such as our chromebook (wasn't looking good on my laptop) **/
