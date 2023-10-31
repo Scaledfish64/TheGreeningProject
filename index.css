@@ -12,7 +12,7 @@
 
 /*Misc*/
 html{
-  background-color: green;
+  background-color: rgb(0, 0, 0);
   scroll-behavior: smooth;
 }
 
@@ -471,3 +471,51 @@ hover-underline {
   }
 }
 
+.panel {
+    margin-top: 6%;
+    align-items: left;
+    justify-content: left;
+    background-color: azure;
+    position: relative;
+    bottom: 10%;
+    margin-top: 50%;
+    padding: 2vw;
+}
+ 
+.question {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+.options {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: left;
+    top: 25%;
+    left: 40%;
+}
+ 
+#btn {
+    margin-left: 1vw;
+    width: 30%;
+    margin-bottom: 1%;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4f98c2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+ 
+#score {
+    font-size: 30px;
+    color: darkslategray;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}

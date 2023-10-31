@@ -1,28 +1,52 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <link href = "index.css" rel = "stylesheet" type = "text/css" />
-            <link rel="icon" href="images/892917.png" />
-            <title>The Greening Project</title>
-        </head>
-        <body>
-            <section>
-                <nav class="nav">
-                  <ul class="nav-list">
-                    <li class="nav-item">
-                      <a class="nav-text hover-underline" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-text hover-underline" href="quiz.html">What Are My Effects?</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-text hover-underline" href="green.html">Going Green</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-text hover-underline" href="about.html">About/Copyright</a>
-                    </li>
-                  </ul>
-                </nav>
-              </section>
-        </body>
-    </html>
+<html>
+
+<head>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="images/892917.png" />
+  <title>The Greening Project</title>
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+  <section>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-text hover-underline" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-text hover-underline" href="quiz.html">What Are My Effects?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-text hover-underline" href="green.html">Going Green</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-text hover-underline" href="about.html">About</a>
+        </li>
+        <li class="nav-item contact">
+          <a class="nav-text hover-underline" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <div class="landing-div">
+    <h1 class="landing-header">The Greening Project</h1>
+    <p class="landing-info">
+      We believe that converting people to clean energy will be the sole
+      determinant of the future for us and our planet, and that it is
+      crucial to execute properly. Our mission is to ensure that you change
+      your carbon footprint to a sustainable level, in a way that best suits
+      your needs.
+    </p>
+  </div>
+  <div class="panel">
+    <div class="question" id="ques"></div>
+    <div class="options" id="opt"></div>
+    <button onclick="checkAns()" id="btn">SUBMIT</button>
+    <div id="score"></div>
+    <P id="underText"></P>
+  </div>
+</body>
+
+</html>
