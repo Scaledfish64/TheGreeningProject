@@ -34,7 +34,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
         { text: "2", points: 25 },
         { text: "3", points: 20 },
         { text: "4", points: 15 },
-        { text: "5", points: 10 }
+        { text: "5+", points: 10 }
         ]
      
     },
