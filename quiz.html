@@ -1,42 +1,86 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="images/892917.png" />
+    <title>The Greening Project</title>
+    <script defer src="index.js"></script>
+  </head>
 
-<head>
-  <link href="index.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" href="images/892917.png" />
-  <title>The Greening Project</title>
-  <script defer src="index.js"></script>
-</head>
-
-<body>
-  <section>
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-text hover-underline" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-text hover-underline" href="quiz.html">What Are My Effects?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-text hover-underline" href="green.html">Going Green</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-text hover-underline" href="about.html">About</a>
-        </li>
-        <li class="nav-item contact">
-          <a class="nav-text hover-underline" href="contact.html">Contact Us</a>
-        </li>
-      </ul>
-    </nav>
-  </section>
-  <div class="panel">
-    <div class="question" id="ques"></div>
-    <div class="options" id="opt"></div>
-    <button onclick="checkAns()" id="btn">SUBMIT</button>
-    <div id="score"></div>
-    <P id="underText"></P>
-  </div>
-</body>
-
+  <body>
+    <section>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-text hover-underline" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-text hover-underline" href="quiz.html"
+              >What Are My Effects?</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-text hover-underline" href="green.html"
+              >Going Green</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-text hover-underline" href="about.html">About</a>
+          </li>
+          <li class="nav-item contact">
+            <a class="nav-text hover-underline" href="contact.html"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section>
+      <div class="effect-div">
+        <h1 class="effect-heading">Everyone's Actions Count!</h1>
+        <h1 class="effect-info">
+          As individuals we often overlook our everyday habits, but in this
+          world of 8 billion individuals it adds up fast.
+        </h1>
+      </div>
+    </section>
+    <section>
+      <div class="quiz">
+        <h1 class="quiz-heading">Take a Quick Quiz!</h1>
+        <p class="quiz-description">
+          Find out how many Earths it would take if eveyrone lived a life like
+          yours.
+        </p>
+        <div class="panel">
+          <div class="question" id="ques"></div>
+          <div class="options" id="opt"></div>
+          <button onclick="checkAns()" id="btn">NEXT</button>
+          <div id="score"></div>
+          <p id="underText"></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-div">
+          <h2>Contact Info</h2>
+          <a class="footer-link">johndoe@gmail.com</a>
+          <a class="footer-link">johnnyapplesmith@gmail.com</a>
+          <a class="footer-link">emmajohnson@gmail.com</a>
+        </div>
+        <div class="footer-div">
+          <h2>Socials</h2>
+          <a class="footer-link">twitter.com/johndoe</a>
+          <a class="footer-link">instagram.com/johndoe</a>
+          <a class="footer-link">facebook.com/johndoe</a>
+        </div>
+        <div class="footer-div">
+          <h2>Copyright</h2>
+          <a class="footer-link">Work Log</a>
+          <a class="footer-link">Research</a>
+          <a class="footer-link">Images</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
