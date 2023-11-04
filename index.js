@@ -129,7 +129,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "Does your HouseHold Compost?",
+        q: "Does your household compost?",
         a: [{ text: "Yes", points: -50 },
         { text: "No", points: 0 }
         ]
@@ -138,7 +138,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
     {
         q: "All my garbage from today could fit into a:",
         a: [{ text: "Less then shoebox", points: 0 },
-        { text: "ShoeBox", points: 50 },
+        { text: "Shoebox", points: 50 },
         { text: "Small Garbage Can", points: 100 },
         { text: "Kitchen Garbage can", points: 150 },
         { text: "More than a Kitchen Garbage Can", points: 200 }
