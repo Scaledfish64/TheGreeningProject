@@ -39,7 +39,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "How is your Home heated? - You may find this on your AC Bill",
+        q: "How is your home heated? - You may find this on your AC Bill",
         a: [{ text: "Natrual Gas", points: 60 },
         { text: "Electric", points: 80 },
         { text: "Oil", points: 100 },
@@ -57,7 +57,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
         ]
     },
     {
-        q: "How many Motorcycles do you drive?",
+        q: "How many motorcycles do you drive?",
         a: [{ text: "0", points: 0 },
         { text: "1", points: 15 },
         { text: "2", points: 30 },
@@ -66,7 +66,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "How many Non-Electric Small-Compact cars do you drive? - Mini Coopers",
+        q: "How many non-electric, small-compact cars do you drive? - Mini Coopers",
         a: [{ text: "0", points: 0 },
         { text: "1", points: 35 },
         { text: "2", points: 70 },
@@ -75,7 +75,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "How many Non-Electric Mid-Sized cars do you drive? - SUVs",
+        q: "How many non-electric, mid-sized cars do you drive? - SUVs",
         a: [{ text: "0", points: 0 },
         { text: "1", points: 60 },
         { text: "2", points: 120 },
@@ -84,7 +84,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "How many Non-Electric full-Sized cars do you drive? - CRVs",
+        q: "How many non-electric, full-sized cars do you drive? - CRVs",
         a: [{ text: "0", points: 0 },
         { text: "1", points: 60 },
         { text: "2", points: 120 },
@@ -93,7 +93,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "How many Non-Electric Trucks cars do you drive? - Pickup Trucks",
+        q: "How many non-electric trucks do you drive? - Pickup Trucks",
         a: [{ text: "0", points: 0 },
         { text: "1", points: 60 },
         { text: "2", points: 120 },
@@ -102,7 +102,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "How many Gallons of gas to you use per month - Average is 50",
+        q: "How many gallons of gas do you use per month? - Average is 50",
         a: [{ text: "0", points: 0 },
         { text: "1 - 25", points: 50 },
         { text: "50 - 75", points: 100 },
@@ -111,7 +111,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "How do you get to School/Work?",
+        q: "How do you get to school/work?",
         a: [{ text: "Car", points: 50 },
         { text: "Public Transit", points: 25 },
         { text: "School Bus", points: 20 },
@@ -120,7 +120,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "Do you use energy effeicent house appliances?",
+        q: "Do you use energy efficient house appliances?",
         a: [{ text: "None at All", points: 150 },
         { text: "Some appliances", points: 100 },
         { text: "Most Appliances", points: 50 },
