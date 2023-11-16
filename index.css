@@ -370,6 +370,7 @@ hover-underline {
   width: 50px;
   background-color: #8191A6;
   margin-top: 7px;
+  margin-bottom: 5px;
 }
 
 .impact-li{
@@ -409,7 +410,7 @@ hover-underline {
   justify-content: center;
   align-items: center;
   padding: 5%;
-  background-color: #BF7B6B;
+  background-color: #8abf6b;
 }
 
 .solar-flex-container{
@@ -447,26 +448,81 @@ hover-underline {
 
 .geo-container{
   margin: 0 auto;
+  height: 100vh;
+  position: relative;
 }
 
 .geo-img-div{
   width: 40%;
-  margin: 2%;
+  margin-left: 5%;
   display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
 }
 
 .geo-div{
-  display: inline-block;
-  width: 40%;
+  background-color: rgb(191, 114, 69);
+  padding: 8% 4%;
+  width: 35%;
+  z-index: 10;
+  text-align: center;
+  float: right;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
 }
 
 .geo-img{
-  width: 100%;
+  width: 120%;
+}
+
+.wind-container{
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+}
+
+.wind-img-div{
+  width: 40%;
+  margin-left: 5%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
+
+.wind-div{
+  background-color: #bf4545;
+  padding: 8% 4%;
+  width: 35%;
+  z-index: 10;
+  text-align: center;
+  float: right;
+  position: absolute;
+  top: 50%;
+  left: 31.5%;
+  transform: translate(-50%, -50%);
+}
+
+.wind-img{
+  width: 120%;
 }
 
 /** this is for smaller laptops such as our chromebook (wasn't looking good on my laptop) **/
 @media screen and (max-width:1500px) {
   .solar-div{
+    width: 30%;
+    padding: 4%;
+  }
+  .geo-div{
+    width: 30%;
+    padding: 4%;
+  }
+  .wind-div{
     width: 30%;
     padding: 4%;
   }
