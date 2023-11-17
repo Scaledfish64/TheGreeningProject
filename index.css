@@ -639,3 +639,21 @@ hover-underline {
   font-size: 3em;
   font-family: 'Gabarito', sans-serif;
 }
+
+.source-div{
+  padding: 8% 4%;
+  margin: 5% 0;
+  background-image: url("images/pexels-singkham-1108572.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.source-heading{
+  font-size: 3em;
+  font-family: 'Gabarito', sans-serif;
+}
+
+.sources-div {
+  min-height: 100vh;
+  display: flex;
+}
