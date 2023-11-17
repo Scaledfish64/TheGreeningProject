@@ -512,6 +512,38 @@ hover-underline {
   width: 120%;
 }
 
+.hydro-container{
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+}
+
+.hydro-img-div{
+  width: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.hydro-div{
+  background-color: #7b98ac;
+  padding: 8% 4%;
+  width: 35%;
+  z-index: 10;
+  text-align: center;
+  float: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hydro-img{
+  width: 120%;
+}
+
 /** this is for smaller laptops such as our chromebook (wasn't looking good on my laptop) **/
 @media screen and (max-width:1500px) {
   .solar-div{
@@ -523,6 +555,10 @@ hover-underline {
     padding: 4%;
   }
   .wind-div{
+    width: 30%;
+    padding: 4%;
+  }
+  .hydro-div{
     width: 30%;
     padding: 4%;
   }
