@@ -642,7 +642,7 @@ hover-underline {
 
 .source-div{
   padding: 8% 4%;
-  margin: 5% 0;
+  margin-top: 5%;
   background-image: url("images/pexels-singkham-1108572.jpg");
   background-size: cover;
   text-align: center;
@@ -654,6 +654,42 @@ hover-underline {
 }
 
 .sources-div {
-  min-height: 100vh;
-  display: flex;
+  min-height: 115vh;
+  position: relative;
+  background-color: white;
+  background-image: url('images/pexels-rifqi-ramadhan-884547.jpg');
+  background-size: cover;
+}
+
+.sources-header {
+  font-size: 4em;
+  font-family: 'Gabarito', sans-serif;
+  margin-left: 5%;
+}
+
+.source-item {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.sources-sources {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 70%;
+  height: 50vh;
+  position: absolute;
+  top: 26.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sources-copyright {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 70%;
+  height: 50vh;
+  position: absolute;
+  top: 74.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
