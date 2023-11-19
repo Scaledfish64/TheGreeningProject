@@ -567,12 +567,13 @@ hover-underline {
 .panel {
   align-items: left;
   justify-content: left;
-  background-color: rgb(253, 243, 197);
+  background-color: rgb(197, 253, 205);
   position: relative;
   padding: 4% 8%;
   margin: 5% 0;
-  color: #005157;
+  color: #00474d;
   transition: 1s;
+  border-radius: 10px;
 }
  
 .question {
@@ -598,10 +599,12 @@ hover-underline {
   width: 30%;
   font-size: 20px;
   padding: 10px 20px;
-  background-color: #687864;
+  background-color: rgb(90, 194, 64);
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 10px;
+  font-family: 'Gabarito', sans-serif;
 }
  
 #score {
@@ -692,4 +695,10 @@ hover-underline {
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.panel label {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 10px;
+  font-weight: bold;
 }
