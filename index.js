@@ -75,7 +75,16 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "How many non-electric, mid-sized cars do you drive? - SUVs",
+        q: "How many non-electric, mid-compact cars do you drive? - Economy Cars",
+        a: [{ text: "0", points: 0 },
+        { text: "1", points: 45 },
+        { text: "2", points: 90 },
+        { text: "3+", points: 135 }
+        ]
+     
+    },
+    {
+        q: "How many non-electric, large-sized cars do you drive? - CRVS",
         a: [{ text: "0", points: 0 },
         { text: "1", points: 60 },
         { text: "2", points: 120 },
@@ -84,7 +93,7 @@ hiddenElementsRight.forEach((el) => observer.observe(el));
      
     },
     {
-        q: "How many non-electric, full-sized cars do you drive? - CRVs",
+        q: "How many non-electric, full-sized cars do you drive? - SUVs",
         a: [{ text: "0", points: 0 },
         { text: "1", points: 60 },
         { text: "2", points: 120 },
