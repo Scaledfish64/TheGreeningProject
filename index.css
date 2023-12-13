@@ -280,6 +280,11 @@ hover-underline {
   margin-right: 8%;
 }
 
+#about-sources h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
 .delay1 {
   transition-delay: 100ms;
 }
@@ -302,6 +307,18 @@ hover-underline {
 
 .about-body p {
   text-align: center;
+}
+
+.source-image-div {
+  width: 100%;
+}
+
+.source-image{
+  width: 50%;
+  margin: 2% auto;
+  display: grid;
+  align-items: center;
+  border-radius: 30px;
 }
 
 .square-img-div{
@@ -625,7 +642,7 @@ hover-underline {
   padding: 8% 4%;
   margin: 5% 0;
 
-  
+
 .effect-heading{
   font-size: 3em;
   font-family: 'Gabarito', sans-serif;
@@ -635,3 +652,6 @@ hover-underline {
   width: 100%;
   height: 50%;
 }
+
+.source-heading{
+  color: red;
