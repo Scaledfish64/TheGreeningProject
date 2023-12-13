@@ -61,6 +61,7 @@ ul{
   background-color: black; 
   border-bottom: 2px solid white;
   padding: 1%;
+  transition: 0.5s;
 }
 
 .nav-list{
@@ -244,7 +245,7 @@ hover-underline {
 }
 
 .turtle-section{
-  background-image: linear-gradient(black, rgba(0,0,0,0)),url("images/pexels-belle-co-847393.jpg");
+  background-image: linear-gradient(black, rgba(0,0,0,0), black),url("images/pexels-belle-co-847393.jpg");
   width: 100%;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
