@@ -41,7 +41,7 @@ ul{
 #landing-page{
   height: 100vh;
   width: 100%;
-  background-image: url("images/pexels-temo-berishvili-1574843.jpg");
+  background-image: linear-gradient(to top, black, rgba(0,0,0,0.4),rgba(0,0,0,0)), url("images/pexels-temo-berishvili-1574843.jpg");
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
@@ -141,6 +141,24 @@ hover-underline {
   width: 50%;
   margin: 2% auto;
   font-size: 1em;
+}
+
+.arrow{
+  position: absolute;
+  width: 7%;
+  top: 88%;
+  left: 50%;
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+  0% { transform: translate(-50%, 0); }
+  100% { transform: translate(-50%, -20px); }
+}
+@keyframes mover {
+  0% { transform: translate(-50%, 0); }
+  100% { transform: translate(-50%, -20px); }
 }
 
 .heading{
