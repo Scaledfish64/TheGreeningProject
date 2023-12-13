@@ -237,7 +237,7 @@ hover-underline {
   border-top: 2px solid white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .footer-div{
@@ -619,6 +619,7 @@ hover-underline {
   background-image: linear-gradient(black,rgba(0,0,0,0)), url("images/pexels-kourosh-qaffari-1583582.jpg");
   padding: 5%;
   background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .quiz{
@@ -641,6 +642,7 @@ hover-underline {
   padding: 8% 4%;
   margin: 5% 0;
 
+  
 .effect-heading{
   font-size: 3em;
   font-family: 'Gabarito', sans-serif;
@@ -651,77 +653,6 @@ hover-underline {
   height: 50%;
 }
 
-.source-div{
-  padding: 8% 4%;
-  margin-top: 5%;
-  background-image: url("images/pexels-singkham-1108572.jpg");
-  background-size: cover;
-  text-align: center;
-}
-
 .source-heading{
-  font-size: 3em;
-  font-family: 'Gabarito', sans-serif;
-}
-
-.sources-div {
-  min-height: 125vh;
-  position: relative;
-  background-color: white;
-  background-image: url('images/pexels-rifqi-ramadhan-884547.jpg');
-  background-size: cover;
-}
-
-.sources-header {
-  font-size: 4em;
-  font-family: 'Gabarito', sans-serif;
-  margin-left: 5%;
-}
-
-.source-item {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.sources-sources {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 70%;
-  height: 55vh;
-  position: absolute;
-  top: 26.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.sources-copyright {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 70%;
-  height: 55vh;
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.panel label {
-  font-family: 'Montserrat', sans-serif;
-  padding-left: 10px;
-  font-weight: bold;
-}
-
-.sdiv {
-  min-height: 100vh;
-  background-color: black;
-  text-align: center;
-}
-
-.sdivhead {
-  font-size: 3rem;
-}
-
-.sourceslisting {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
+  color: red;
 }
