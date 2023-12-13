@@ -244,7 +244,7 @@ hover-underline {
 }
 
 .turtle-section{
-  background-image: url("images/pexels-belle-co-847393.jpg");
+  background-image: linear-gradient(black, rgba(0,0,0,0)),url("images/pexels-belle-co-847393.jpg");
   width: 100%;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
@@ -657,6 +657,7 @@ hover-underline {
 .sources-div{
   padding: 8% 4%;
   margin: 5% 0;
+  text-align: center;
 }
 
 .sources-heading{
@@ -664,7 +665,8 @@ hover-underline {
   font-family: 'Gabarito', sans-serif;
 }
 
-.sources-img{
-  width: 100%;
-  height: 50%;
+.sources-link{
+  display: block;
+  margin: 2%;
+  font-size: 1.2em;
 }
