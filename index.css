@@ -615,6 +615,12 @@ hover-underline {
   text-align: center;
 }
 
+.quiz-section{
+  background-image: linear-gradient(black,rgba(0,0,0,0)), url("images/pexels-kourosh-qaffari-1583582.jpg");
+  padding: 5%;
+  background-blend-mode: multiply;
+}
+
 .quiz{
   width: 70%;
   margin: 10% auto;
@@ -634,13 +640,15 @@ hover-underline {
 .effect-div{
   padding: 8% 4%;
   margin: 5% 0;
-  background-image: url("images/pexels-kourosh-qaffari-1583582.jpg");
-  background-size: cover;
-}
 
 .effect-heading{
   font-size: 3em;
   font-family: 'Gabarito', sans-serif;
+}
+
+.effect-img{
+  width: 100%;
+  height: 50%;
 }
 
 .source-div{
